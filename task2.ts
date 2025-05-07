@@ -10,13 +10,13 @@ const lastNim = parseInt(nim.slice(-1))
 if (lastNim % 2 !== 0) {
   let i = first
   while (i <= 20) {
-    console.log(i)
+    console.info(i)
     i++
   }
 } else {
   let i = first
   do {
-    console.log(i)
+    console.info(i)
     i++
   } while (i <= 20)
 }
